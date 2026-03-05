@@ -1,73 +1,105 @@
-# React + TypeScript + Vite
+# Portfólio — Anderson Luca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio online desenvolvido para conclusão do curso, reunindo projetos, habilidades e informações de contato em uma apresentação profissional.
 
-Currently, two official plugins are available:
+## Versão online (Deploy)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse o portfólio publicado: 
+Exemplo: `https://portfolio-kappa-five-jzrd1d667g.vercel.app/`
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Como rodar o projeto localmente
 
-## Expanding the ESLint configuration
+### Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Node.js** (recomendado LTS)
+* **Git** (opcional, para clonar)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Passo a passo
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. Clone o repositório:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/omeloluca-collab/portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Acesse a pasta do projeto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd portfolio
 ```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Rode o projeto em ambiente de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+5. Abra no navegador o endereço exibido no terminal (geralmente):
+
+* `http://localhost:5173`
+
+### Build de produção (opcional)
+
+```bash
+npm run build
+npm run preview
+```
+
+O preview geralmente roda em:
+
+* `http://localhost:4173`
+
+---
+
+## Projetos apresentados
+
+> Abaixo estão exemplos de projetos (atualize os links conforme seus repositórios/demos).
+
+### 1) Barbearia
+
+Site desenvolvido utilizando conceitos do bootstrap.
+
+* Tecnologias: **JavaScript, bootstrap, HTML, CSS**
+* Repositório: **https://github.com/omeloluca-collab/barbearia-bootstrap.git**
+* Demo (se houver): **COLE_AQUI_O_LINK_DA_DEMO**
+
+### 2) Portal de Viagens
+
+Next.js com rotas baseadas em arquivos, CSS molules e etc.
+
+* Tecnologias: **React, TypeScript, Next.js, App router**
+* Repositório: **https://github.com/omeloluca-collab/portal-viagens.git**
+* Demo (se houver): **COLE_AQUI_O_LINK_DA_DEMO**
+
+### 3) Pet&Style
+
+Arquitetura utilizando conceitos do tailwind CSS
+
+* Tecnologias: **React, Tailwind, Flexbox e Grid**
+* Repositório: **https://github.com/omeloluca-collab/Pet-Style.git**
+* Demo (se houver): **COLE_AQUI_O_LINK_DA_DEMO**
+
+---
+
+## Habilidades em destaque
+
+* React, TypeScript, JavaScript
+* Componentização e boas práticas de UI
+* Responsividade (mobile/desktop)
+* Git e GitHub
+* Deploy (Vercel)
+
+---
+
+## Contato
+
+* Email: **[omelo.luca@icloud.com](mailto:omelo.luca@icloud.com)**
+* Telefone: **(11) 94270-9114**
