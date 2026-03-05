@@ -1,0 +1,11 @@
+.footer {
+  border-top: 1px solid var(--border);
+  margin-top: 46px;
+  padding: 26px 0;
+  background: rgba(255,255,255,0.55);
+}
+
+.text {
+  color: var(--muted2);
+  font-size: 14px;
+}
